@@ -1,0 +1,32 @@
+.message-container {
+    width: 600px;
+    display: inline-block!important;
+}
+
+.message-wrapper {
+    /*width: 480px;*/
+    margin: 10px;
+    padding: 10px;
+    border-radius: 18px;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+}
+
+.sent-by-me {
+    float: right;
+    text-align: right;
+    background-color: #ececec;
+}
+
+.sent-by-them {
+    float: left;
+    text-align: left;
+    background-color: #ccc;
+}
+
+.message-sender {
+    margin: 3px;
+}
+
+.message-text {
+    margin: 3px;
+}

@@ -1,0 +1,26 @@
+.form-wrapper {
+    width: 700px;
+    /*height: 100px;*/
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-input {
+    width: 500px;
+    height: 60px;
+    font-size: 20px;
+    background-color: #ececec;
+    border-radius: 18px;
+    border: 0;
+    padding: 0 10px;
+}
+
+.form-button {
+    width: 100px;
+    height: 60px;
+    font-size: 20px;
+    background-color: #ececec;
+    border-radius: 18px;
+    float: right;
+    border: 0;
+}
