@@ -8,10 +8,9 @@ function Calculator() {
     const [expression, setExpression] = useState('');
     const [result, setResult] = useState('');
 
-    const submitHandler = (event) => {
-        setExpression(event);
-        // console.log(parseExpression(expression));
-        setResult('submit successful'); // TODO: set result here
+    const submitHandler = (exp) => {
+        setExpression(exp);
+        setResult(parseExpression(exp));
     }
 
     const clickHandler = (value) => {
