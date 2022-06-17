@@ -1,0 +1,19 @@
+.input-wrapper{
+   color: white;
+   text-align: right;
+   display: inline-block;
+   width: 435px;
+}
+
+.input-expression {
+   height: 50px;
+   font-size: 26px;
+   margin: 0;
+}
+
+.input-result {
+   height: 100px;
+   font-size: 36px;
+   font-weight: bold;
+   margin: 0;
+}

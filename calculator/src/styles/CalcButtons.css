@@ -1,0 +1,33 @@
+.buttons-submit {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    border: none;
+    font-size: 32px;
+    font-weight: bold;
+    background-color: rgba(255,255,255,0.9);
+    color: #3974cc;
+    display: inline-block;
+    margin: 10px;
+}
+
+.buttons-submit:hover {
+    background-color: white;
+}
+
+.button {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    border: none;
+    font-size: 32px;
+    font-weight: bold;
+    background-color: rgba(0,0,0,0);
+    color: white;
+    display: inline-block;
+    margin: 10px;
+}
+
+.button:hover {
+    background-color:rgba(255,255,255,0.2);
+}
